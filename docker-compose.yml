@@ -5,7 +5,7 @@ wordpress:
   ports:
     - 8282:80
   volumes:
-  - /c/Users/sites/dockerwp/src:/var/www/html
+  - /var/www/html/dockerwp/src:/var/www/html
 wordpress_db:
   image: mariadb
   environment:
